@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "EduPrima",
+    "slug": "eduprima-uas",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "eduprima",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2F5BEA"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.namamu.eduprima",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Aplikasi membutuhkan kamera untuk memotret tugas kuliah.",
+        "NSPhotoLibraryUsageDescription": "Aplikasi membutuhkan akses galeri untuk memilih foto tugas dan foto profil."
+      }
+    },
+    "android": {
+      "package": "com.namamu.eduprima",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2F5BEA"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Aplikasi membutuhkan akses galeri untuk memilih foto tugas dan foto profil.",
+          "cameraPermission": "Aplikasi membutuhkan kamera untuk memotret tugas kuliah."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "de0fa567-8575-4ab9-88c6-c3b4f476a01e"
+      }
+    }
+  }
+}
