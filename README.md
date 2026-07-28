@@ -12,7 +12,7 @@
 
 | Login Screen | Home Screen | Feature Screen |
 |:---:|:---:|:---:|
-| /login.png | ![assets/screenshots/home.png] | ![assets/screenshots/feature.png] |
+| Project-16-EduPrima/login.png | ![assets/screenshots/home.png] | ![assets/screenshots/feature.png] |
 
 ---
 
