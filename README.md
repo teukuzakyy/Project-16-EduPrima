@@ -12,7 +12,7 @@
 
 | Login Screen | Home Screen | Feature Screen |
 |:---:|:---:|:---:|
-| (https://github.com/teukuzakyy/Project-16-EduPrima/blob/main/login.png) | ![assets/screenshots/home.png] | ![assets/screenshots/feature.png] |
+| ![Login](https://raw.githubusercontent.com/teukuzakyy/Project-16-EduPrima/main/login.png) | ![Home](https://raw.githubusercontent.com/teukuzakyy/Project-16-EduPrima/main/home.png) | ![Feature](https://raw.githubusercontent.com/teukuzakyy/Project-16-EduPrima/main/feature.png) |
 
 ---
 
